@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "config": {
+    "start_pool": "civilization:village/steve/start",
+    "size": 4
+  },
+  "biomes": "plains",
+  "adapt_noise": true,
+  "spawn_overrides": {}
+}

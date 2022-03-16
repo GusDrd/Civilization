@@ -1,0 +1,2 @@
+execute as @e[type=skeleton,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_helmet",Count:1b}]},name="Perished Guard",tag=!spawned] run item replace entity @s weapon.mainhand with iron_sword{Damage:0.3-0.5} 1
+execute as @e[type=skeleton,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_helmet",Count:1b}]},name="Perished Guard",tag=!spawned] run tag @s add spawned
