@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:spyglass"
+      },
+      "title": {
+        "text": "Civilization"
+      },
+      "description": {
+        "text": "Discover the Civilization"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/block/dirt.png"
+    },
+    "criteria": {
+      "spawn": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+        "loot": [
+            "civilization:advancements/book_start"
+        ]
+    }
+}

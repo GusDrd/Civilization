@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:[\"\n{\\\"text\\\":\\\"Welcome to PotatoCraft!\\\\n\\\\nNo buildinganywhere on the spawn island without permission.\\\\n\\\\nShops on the spawn island must beapproved by AlmightyZing.\\\"}\",\"{\\\"text\\\":\\\"All redstone farms must have an off switch. Ifthey do not and they start causing lag they will be disabled by AlmightyZing.\\\\n\\\\nTo helpcombat lag, the max entities in a single block is 24. Any more and some will startdying.\\\"}\",\"{\\\"text\\\":\\\"Points of Interest\\\\n\\\\nDesignated Mining Areas\\\\n\\\\nSand Desert:\\\\n-2500, -1250\\\\n\\\\nMesa:\\\\n1800, 2000\\\\n\\\\nIce Spikes:\\\\n0, -1550\\\\n \\\"}\",\"{\\\"text\\\":\\\"Worldborder is 5000 blocks in each direction from spawn.\\\\n\\\\nFullrules:\\\\nLinkToRules\\\\n\\\\n\\\\nHavefun!\\\"}\"],title:PotatoCraft,author:AlmightyZing,generation:3,display:{Lore:[\"PotatoCraftRules and Information\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
