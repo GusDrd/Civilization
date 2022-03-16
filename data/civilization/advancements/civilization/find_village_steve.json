@@ -1,0 +1,33 @@
+{
+    "parent": "civilization:civilization/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:dirt"
+      },
+      "title": {
+        "text": "Steve Village"
+      },
+      "description": {
+        "text": "Find Steve Village"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "find_steve_village": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "feature": "civilization:steve_village"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "find_steve_village"
+      ]
+    ]
+  }
